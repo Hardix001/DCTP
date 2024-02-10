@@ -1,0 +1,125 @@
+.general-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 100px 30px 30px 30px;
+}
+
+.img-divs img{
+  padding-left: 50px
+  
+}
+
+
+form {
+  background-color: white;
+  padding: 30px 30px 30px 50px;
+  height: 921px;
+  width: 500px;  
+  
+}
+
+
+
+h2{
+  color: var(--Text-black, #1B1B1B);
+font-family: "Clash Display";
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+h4{
+  color: var(--Grey-3, #5C5C5C);
+font-family: "Proxima Nova";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+h3{
+  margin-left: 170px;
+  color: var(--Grey-3, #5C5C5C);
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+form .input-div input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px 50px 10px 50px;
+  width: 300px;
+  height: 30px;
+  margin-right: 80px;
+}
+
+form p {
+  text-align: center;
+  
+}
+
+form p a {
+  color: var(--Phynix-green, #1E5F30);
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+ 
+  ;
+}
+
+form .button-divs button {
+  display: flex;
+  width: 400px;
+  height: 53px;
+  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--Grey-2, #BEBEBE);
+  background: var(--white, #FFF);
+}
+
+form .button-div button {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--Phynix-green, #1E5F30);
+  color: var(--white, #FFF);
+  text-align: center;
+
+font-family: "Proxima Nova";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-top: 5px;
+  
+}
+
+form .button-div button a {
+  text-decoration: none;
+  color: var(--white, #FFF);
+  font-family: "Proxima Nova";
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
